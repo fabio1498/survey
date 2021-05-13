@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+#header {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  width: 70%;
+  margin: auto;
+  color: white;
+}
+form {
+  font-family: "Noto Sans JP", sans-serif;
+}
+body {
+  background-color: #1a1a1a;
+  margin: 0 auto;
+}
+#survey-form {
+  width: 70%;
+  color: #d9d9d9;
+  background-color: #0d0d0d;
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+}
+#checkbox {
+  font-size: 10px;
+}
+.input-checkbox {
+  cursor: pointer;
+}
+.input-radio {
+  cursor: pointer;
+}
+#submit {
+  padding: 14px 30px;
+  background-color: #4caf50;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+#submit:hover {
+  background-color: #008000;
+  transition-duration: 0.2s;
+}
+#reset {
+  padding: 14px 30px;
+  position: relative;
+  background-color: transparent;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+#reset:hover {
+  background-color: red;
+  transition-duration: 0.2s;
+}
+#imgheader {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+#secondsurvey {
+  text-align: left;
+  margin-left: 8px;
+}
+#name {
+  width: 100%;
+  border: none;
+  background-color: #0d0d0d;
+  color: #d9d9d9;
+  box-sizing: border-box;
+}
+#email {
+  width: 100%;
+  border: none;
+  background-color: #0d0d0d;
+  color: #d9d9d9;
+  box-sizing: border-box;
+}
+#number {
+  width: 100%;
+  border: none;
+  background-color: #0d0d0d;
+  color: #d9d9d9;
+  box-sizing: border-box;
+}
+#dropdown {
+  width: 20%;
+  border: none;
+  background-color: #0d0d0d;
+  color: #d9d9d9;
+  box-sizing: border-box;
+}
+textarea {
+  width: 50%;
+  border: 1px solid;
+  border-radius: 10px;
+  background-color: #0d0d0d;
+  color: #d9d9d9;
+  box-sizing: border-box;
+}
+@media (max-width: 460px) {
+  #submit {
+    font-size: 12px;
+  }
+  #reset {
+    font-size: 12px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+h4 {
+  color: white;
+}
+label {
+  font-size: 12px;
+}
+#dropdown {
+  width: 100px;
+  cursor: pointer;
+}
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  flex-direction: row;
+}
+.flex-item {
+  padding: 5px;
+}
+#number-label {
+  white-space: nowrap;
+}
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  #submit {
+    padding: 10px 16px;
+  }
+  #reset {
+    padding: 10px 16px;
+  }
+}
